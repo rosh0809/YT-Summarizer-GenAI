@@ -19,3 +19,13 @@ An AI-powered tool that transcribes and summarizes YouTube videos using **Google
 2. **Install dependencies:** `pip install -r requirements.txt`
 3. **Set up API Key:** Create a `.env` file and add `GOOGLE_API_KEY=your_key_here`
 4. **Run the app:** `streamlit run app.py`
+
+## 🐳 Run with Docker
+
+1. Clone the repo
+2. Create a `.env` file and add your `GOOGLE_API_KEY`
+3. Run:
+```bash
+   docker compose up --build
+```
+4. Open http://localhost:8501
